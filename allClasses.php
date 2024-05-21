@@ -42,7 +42,6 @@ class OrderController
     {
         $orderService = new OrderService();
         $order = new Order();
-        $cityId = (int) $_GET['city_id']; // Получение города из GET-параметра
 
         // Заполнение свойств заказа данными из запроса
 
